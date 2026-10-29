@@ -22,7 +22,7 @@ Multiplayer Durak card game that runs **inside Discord voice calls**.
 - 3D card table in Three.js, with bots and 2–6 players
 - 290+ commits · 50+ test files · CI · Fly.io
 
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Colyseus](https://img.shields.io/badge/-Colyseus-1f2937?style=flat-square) ![React](https://img.shields.io/badge/-React-20232a?style=flat-square&logo=react&logoColor=61DAFB) ![Three.js](https://img.shields.io/badge/-Three.js-000?style=flat-square&logo=threedotjs&logoColor=white) ![MongoDB](https://img.shields.io/badge/-MongoDB-13aa52?style=flat-square&logo=mongodb&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?yle=flat-square&logo=typescript&logoColor=white) ![Colyseus](https://img.shields.io/badge/-Colyseus-1f2937?yle=flat-square) ![React](https://img.shields.io/badge/-React-20232a?style=flat-square&logo=react&logoColor=61DAFB) ![Three.js](https://img.shields.io/badge/-Three.js-000?style=flat-square&logo=threedotjs&logoColor=white) ![MongoDB](https://img.shields.io/badge/-MongoDB-13aa52?style=flat-square&logo=mongodb&logoColor=white)
 
 </td>
 </tr>
@@ -84,13 +84,6 @@ REST API for the national league, with scraping and daily cron sync.<br/>
 **Oyuna AI**<br/>
 Bilingual Mongolian/English AI chat app.<br/>
 <sub>Next.js · Supabase</sub>
-
-</td>
-<td width="50%">
-
-**[Invoice Generator](https://st-my.vercel.app)**<br/>
-Invoices with stamp and signature placement, exported to PDF.<br/>
-<sub>Next.js · jsPDF</sub>
 
 </td>
 </tr>
