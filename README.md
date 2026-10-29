@@ -21,7 +21,7 @@ Real-time multiplayer Durak card game that runs **inside Discord voice calls** a
 
 `TypeScript` `Colyseus` `React` `Three.js` `MongoDB` `Redis`
 
-#### 🎓 Primis · [live portal](https://primis-portal.vercel.app) <sub>(private repo)</sub>
+#### 🎓 Primis · [live portal](https://primiseducare.com) <sub>(private repo)</sub>
 Production IELTS/SAT prep portal for a tutoring center in Mongolia, with **student, teacher, parent and admin** roles.
 - Google sign-in for students, and phone-code sign-in for parents (Verify.MN / Twilio)
 - Rotating QR codes link a parent to their child without needing an admin
@@ -41,9 +41,6 @@ Mongolia's classic trick-taking card game as a Discord Activity.
 ### 🧰 Other work
 
 - **[Error404](https://github.com/turbo-leg/Error404):** team-built job board with applications, profiles and an admin panel (React, Express, MongoDB, Jest)
-- **Mongolia Basketball API:** REST API for the national league, with scraping and daily cron sync (Next.js, Supabase)
-- **Oyuna AI:** bilingual Mongolian/English AI chat app (Next.js, Supabase)
-- **[Invoice Generator](https://st-my.vercel.app):** invoices with stamp and signature placement, exported to PDF (Next.js)
 
 ### 🛠️ Tech I use
 
