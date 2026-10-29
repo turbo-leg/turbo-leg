@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Turbile 👋</h1>
+<h1 align="center">Hi, I'm Turbileg 👋</h1>
 
 <p align="center">
   CS student at <b>UBC Okanagan</b> · Kelowna, BC · from 🇲🇳 Mongolia<br/>
