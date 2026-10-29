@@ -51,6 +51,12 @@ Mongolia's classic trick-taking card game as a Discord Activity.
 ### 📊 GitHub stats
 
 <p>
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=turbo-leg&show_icons=true&hide_border=true&count_private=true&theme=transparent" alt="GitHub stats"/>
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=turbo-leg&layout=compact&hide_border=true&theme=transparent" alt="Top languages"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=turbo-leg&theme=github_dark"/>
+    <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=turbo-leg&theme=github" alt="GitHub stats"/>
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=turbo-leg&theme=github-dark-blue&hide_border=true"/>
+    <img height="170" src="https://streak-stats.demolab.com?user=turbo-leg&hide_border=true" alt="Contribution streak"/>
+  </picture>
 </p>
