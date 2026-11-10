@@ -1,109 +1,35 @@
-<img src="assets/banner.svg" width="100%" alt="Turbileg Uurtsaikh: real-time multiplayer games and production full-stack apps"/>
+# Turbileg Uurtsaikh
 
-<p align="center">
-  <a href="mailto:turbileg@student.ubc.ca"><img src="https://img.shields.io/badge/turbileg@student.ubc.ca-0b1220?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://durak-discord-activity.fly.dev"><img src="https://img.shields.io/badge/Play_Durak-0b1220?style=for-the-badge&logo=discord&logoColor=white" alt="Play Durak"/></a>
-  <a href="https://muushig.fly.dev"><img src="https://img.shields.io/badge/Play_Muushig-0b1220?style=for-the-badge&logo=discord&logoColor=white" alt="Play Muushig"/></a>
-</p>
+Fourth-year Computer Science student at UBC Okanagan in Kelowna, BC, graduating in 2027. I build web apps for real users and multiplayer games my friends actually play.
 
-I'm a CS student at **UBC Okanagan** in Kelowna, originally from Mongolia. I like building things people actually use, like card games my friends play over Discord and the portal a tutoring center in Ulaanbaatar runs on.
+Looking for software engineering internships and new-grad roles in Canada.
+[turbileg@student.ubc.ca](mailto:turbileg@student.ubc.ca) · [LinkedIn](https://linkedin.com/in/turbileg-uurtsaikh-42ab97237)
 
-## Featured work
+## Projects
 
-<table>
-<tr>
-<td width="55%"><a href="https://durak-discord-activity.fly.dev"><img src="assets/durak.jpg" alt="Durak 3D card table"/></a></td>
-<td width="45%">
+### Primis EduCare portal
+[primiseducare.com](https://primiseducare.com) · [project overview](https://github.com/turbo-leg/primis-portal)
 
-### [Durak](https://github.com/turbo-leg/Durak)
-Multiplayer Durak card game that runs **inside Discord voice calls**.
+<img src="assets/primis.jpg" width="640" alt="Primis EduCare portal home page">
 
-- Server-authoritative game state, so no player can see another's hand
-- 3D card table in Three.js, with bots and 2–6 players
-- 290+ commits · 50+ test files · CI · Fly.io
+The portal my family's tutoring center in Ulaanbaatar runs on, replacing paper and Excel: courses, attendance, parent accounts, payment reminders and Google Classroom. I built it alone with FastAPI, PostgreSQL and Nuxt. It runs on Railway and Vercel, with Alembic migrations, a cron worker and about 600 tests that run in CI. The code is private because the portal holds children's data. I'm happy to walk through it in an interview.
 
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?yle=flat-square&logo=typescript&logoColor=white) ![Colyseus](https://img.shields.io/badge/-Colyseus-1f2937?yle=flat-square) ![React](https://img.shields.io/badge/-React-20232a?style=flat-square&logo=react&logoColor=61DAFB) ![Three.js](https://img.shields.io/badge/-Three.js-000?style=flat-square&logo=threedotjs&logoColor=white) ![MongoDB](https://img.shields.io/badge/-MongoDB-13aa52?style=flat-square&logo=mongodb&logoColor=white)
+### Durak
+[Play it](https://durak-discord-activity.fly.dev) · [code](https://github.com/turbo-leg/Durak)
 
-</td>
-</tr>
-<tr>
-<td width="45%">
+<img src="assets/durak.jpg" width="640" alt="Durak card table inside Discord">
 
-### Primis · [live](https://primiseducare.com) <sub>private</sub>
-Production IELTS/SAT prep portal for a tutoring center in Mongolia, with **student, teacher, parent and admin** roles.
+The card game Durak, played inside Discord voice calls with 2 to 6 players or bots. The server owns the game state and sends each player only their own hand. TypeScript, Colyseus, React and Three.js, deployed on Fly.io from CI.
 
-- Google sign-in for students and phone codes for parents
-- Rotating QR codes link a parent to their child, no admin needed
-- Attendance, payments, web push, Google Classroom, mobile apps
-- 190+ commits · 50+ test files · CI · Sentry
+### Muushig
+[Play it](https://muushig.fly.dev) · [code](https://github.com/turbo-leg/Muushig)
 
-![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/-Redis-d82c20?style=flat-square&logo=redis&logoColor=white) ![Nuxt](https://img.shields.io/badge/-Nuxt-00dc82?style=flat-square&logo=nuxt&logoColor=white) ![Capacitor](https://img.shields.io/badge/-Capacitor-119eff?style=flat-square&logo=capacitor&logoColor=white)
+<img src="assets/muushig.jpg" width="640" alt="Muushig table lobby">
 
-</td>
-<td width="55%"><a href="https://primiseducare.com"><img src="assets/primis.jpg" alt="Primis Educare landing page"/></a></td>
-</tr>
-<tr>
-<td width="55%"><a href="https://muushig.fly.dev"><img src="assets/muushig.jpg" alt="Muushig table lobby"/></a></td>
-<td width="45%">
+Muushig, a Mongolian trick-taking card game, as a Discord Activity. The rules engine is shared by client and server, and players get Elo ratings and a leaderboard.
 
-### Muushig · [play](https://muushig.fly.dev) <sub>private</sub>
-Mongolia's classic trick-taking card game, built as a Discord Activity.
+## Also
 
-- Fully tested rules engine shared by client and server
-- Elo ratings, leaderboard, spectators and private tables
-- Bilingual rules book and generative tavern music
+- [Error404](https://github.com/turbo-leg/Error404): a job board our team built in COSC 360 (React, Express, MongoDB).
 
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Colyseus](https://img.shields.io/badge/-Colyseus-1f2937?style=flat-square) ![React](https://img.shields.io/badge/-React-20232a?style=flat-square&logo=react&logoColor=61DAFB) ![Fly.io](https://img.shields.io/badge/-Fly.io-7b3be2?style=flat-square&logo=flydotio&logoColor=white)
-
-</td>
-</tr>
-</table>
-
-## More projects
-
-<table>
-<tr>
-<td width="50%">
-
-**[Error404](https://github.com/turbo-leg/Error404)**<br/>
-Team-built job board with applications, profiles and an admin panel.<br/>
-<sub>React · Express · MongoDB · Jest</sub>
-
-</td>
-<td width="50%">
-
-**Mongolia Basketball API**<br/>
-REST API for the national league, with scraping and daily cron sync.<br/>
-<sub>Next.js · Supabase · Vercel Cron</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-**Oyuna AI**<br/>
-Bilingual Mongolian/English AI chat app.<br/>
-<sub>Next.js · Supabase</sub>
-
-</td>
-</tr>
-</table>
-
-## Tech I use
-
-<p>
-  <img src="https://skillicons.dev/icons?i=ts,js,python,react,nextjs,nuxtjs,nodejs,express,fastapi,tailwind,postgres,mongodb,redis,supabase,docker,threejs,java,c&perline=9" alt="Tech stack"/>
-</p>
-
-## Activity
-
-<p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=turbo-leg&theme=github_dark"/>
-    <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=turbo-leg&theme=github" alt="GitHub stats"/>
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=turbo-leg&theme=github-dark-blue&hide_border=true"/>
-    <img height="170" src="https://streak-stats.demolab.com?user=turbo-leg&hide_border=true" alt="Contribution streak"/>
-  </picture>
-</p>
+Languages I use most: Python, TypeScript, SQL. I also write C and CUDA for coursework.
