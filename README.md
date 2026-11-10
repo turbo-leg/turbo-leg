@@ -12,7 +12,7 @@ Looking for software engineering internships and new-grad roles in Canada.
 
 <img src="assets/primis.jpg" width="640" alt="Primis EduCare portal home page">
 
-The portal my family's tutoring center in Ulaanbaatar runs on, replacing paper and Excel: courses, attendance, parent accounts, payment reminders and Google Classroom. I built it alone with FastAPI, PostgreSQL and Nuxt. It runs on Railway and Vercel, with Alembic migrations, a cron worker and about 600 tests that run in CI. The code is private because the portal holds children's data. I'm happy to walk through it in an interview.
+The portal a tutoring center in Ulaanbaatar runs on, replacing paper and Excel: courses, attendance, parent accounts, payment reminders, and Google Classroom. I built it alone with FastAPI, PostgreSQL, and Nuxt. It runs on Railway and Vercel, with Alembic migrations, a cron worker, and about 600 tests that run in CI. The code is private because the portal holds children's data. I'm happy to walk through it in an interview.
 
 ### Durak
 [Play it](https://durak-discord-activity.fly.dev) · [code](https://github.com/turbo-leg/Durak)
